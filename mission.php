@@ -10,6 +10,7 @@ function repairBarrier(): void {
     // 担当A: $defenses['physical'] = fn() => "SHIELD_UP";
     // 担当B: $defenses['magical'] = fn() => "SPELL_BOUND";
     $defenses['physical'] = fn() => "SHIELD_UP";
+    $defenses['magical'] = fn() => "SPELL_BOUND";
     // ==========================================
 
     echo "結界の同調率を計測中...\n";
